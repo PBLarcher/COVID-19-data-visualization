@@ -19,10 +19,10 @@ This project is an interactive Python-based analysis tool designed to explore an
 
 The screenshot is a simple visualization using two bar charts and two plots which contain New Daily Cases (Linear plot), Cumulative Cases (Linear plot) , New Daily Deaths (Bar Chart), and Cumulative Deaths (Linear plot).
 
-(This option should pop up after you enter your Name, the state of your choice (Not Case Sensitive), and selecting '1' as the option.)
+(This option should pop up after you enter your Name, the state of your choice (Not Case Sensitive), and selecting ```1``` as the option.)
 
 ## Figure 2. Interactive chloropleth map: Total Reported Cases and Deaths in Texas
-### Option 2 was chosen
+### Option ```2``` was chosen
 <img width="1084" height="670" alt="Screenshot 2026-01-08 174530" src="https://github.com/user-attachments/assets/104b1c46-9228-45a5-bc1e-e2d00cb21322" />
 
 The screenshot demonstrates how the script functions, what it does and what you should see as a visualization for the Map, for example I chose to do Texas. From here you can see a mouse cursor above "Harns" County, which also displays a text box containing cumulative deaths and cases.
@@ -44,7 +44,8 @@ The project utilzes datasets derived from the John Hopkins University CSSE COVID
 git clone [https://github.com/yourusername/covid-data-exploration.git](https://github.com/yourusername/covid-data-exploration.git)
 ```
 
-### 2. Installation of required libraries: The packages should be installed if you are experiened with using Jupyter Notebook and the libraries. If not, run this line of code below in Jupyter Notebook, Google Colab, or Visual Studio Code:
+### 2. Installation of required libraries: 
+The packages should be installed if you are experiened with using Jupyter Notebook and the libraries. If not, run this line of code below in Jupyter Notebook, Google Colab, or Visual Studio Code:
 ```
 pip install pandas
 pip instal geopandas
@@ -53,16 +54,18 @@ pip install folium
 pip install mapclassify
 ```
 
-### 3. Running the script: Open "Larcher Paxton Project-Copy1.ipynb" with Jupyter Notebook (using Anaconda, Google Colab, or VS Code) and run cell 1 sequentially...
+### 3. Running the script: 
+Open "Larcher Paxton Project-Copy1.ipynb" with Jupyter Notebook (using Anaconda, Google Colab, or VS Code) and run cell 1 sequentially...
 
 ## Usage Guide
 
 ### 1. Start the Progam: Run the main code cell.
 
 ### 2. Entering the details: * input your first name (Not case sensitive)
-  - Type the name of a US State (e.g., "Virginia", "New York", "California"). Note: the names are not case sensitive
+  - Type the name of a US State (e.g., "Virginia", "New York", "California"). Note: the state names are not case sensitive
 
-### 3. Review Statistics: The program will print a statistical summary for 2020 and 2021.
+### 3. Review Statistics: 
+The program will print a statistical summary for 2020 and 2021.
 
 ### 4. Choose Visualization:
 - Enter ```1``` to view the Matplotlib Dashboard.
